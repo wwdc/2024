@@ -151,7 +151,7 @@ struct Submission {
         }
         
         let videoUrl = if let videoUrl {
-            "[YouTube](\(videoUrl.absoluteString))"
+            "[\(videoUrl.absoluteString.contains("youtu") ? "YouTube" : "Video")](\(videoUrl.absoluteString))"
         } else {
             "-"
         }
