@@ -17,4 +17,4 @@ If you would like to update your submission status please find your file in `Sub
 |-----:|:------:|:-----------:|:-------------|:------:|
 |[Lukas Lauerer](https://www.twitter.com/custusfox)|-|-|SwiftUI, SwiftData|![Winner](https://img.shields.io/badge/winner-green?style=for-the-badge)|
 
-##### Total: 1 | Accepted: 0
+##### Total: 1 | Awarded: 1
