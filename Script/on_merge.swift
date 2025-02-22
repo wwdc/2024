@@ -12,6 +12,7 @@ import Foundation
 // MARK: - Constants
 let year = 2024
 let name = "Swift Student Challenge"
+let youtubeUrl: URL? = URL(string: "https://youtube.com/playlist?list=PLhL6AIw-Jhh99O682niPeGCgx6Nki1ark&si=PioLyvrSwZmqda7Z")
 
 let templateFileName = "Template.md"
 let submissionsDirectoryName = "Submission"
@@ -28,14 +29,16 @@ VideoUrl:
 
 <!---
 EXAMPLE
-Name: John Appleseed
-Status: Submitted <or> Winner <or> Distinguished <or> Rejected
+Name<required>: John Appleseed
+Status<required>: Submitted <or> Winner <or> Distinguished <or> Rejected
 ProjectTitle: The Accessibility Rose
-Technologies: SwiftUI, RealityKit, CoreGraphic
+Technologies<4 maximum>: SwiftUI, RealityKit, CoreGraphic 
 
-AboutMeUrl: https://linkedin.com/in/johnappleseed
+AboutMeUrl: https://linkedin.com/in/johnappleseed <
 SourceUrl: https://github.com/johnappleseed/wwdc2025
 VideoUrl: https://youtu.be/ABCDE123456
+
+Please note that only Name and Status are mandatory fields. The other fields are optional.
 -->
 
 """#
@@ -244,13 +247,21 @@ for submissionFile in submissionFiles {
 }
 
 // MARK: - Generate new README.md file from template
+let additionalDescription: String = if let youtubeUrl {
+"""
+
+Check out the [YouTube Playlist](\(youtubeUrl.absoluteString)) to watch the projects.
+
+"""
+} else { "" }
+
 var readmeFile: String {
 """
 # WWDC \(year) - \(name)
 ![WWDC\(year) Logo](logo.png)
 
 List of student submissions for the WWDC \(year) - \(name).
-
+\(additionalDescription)
 ### How to add your submission?
 1. [Click here](https://github.com/wwdc/\(year)/edit/main/Template.md) to fork this repository and edit the `Template.md` file.
 2. Fill out the document based on the example in the comment below.
