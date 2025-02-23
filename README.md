@@ -18,5 +18,6 @@ If you would like to update your submission status please find your file in `Sub
 | Name | Source |    Video    | Technologies | Status |
 |-----:|:------:|:-----------:|:-------------|:------:|
 |[Lukas Lauerer](https://www.twitter.com/custusfox)|-|-|SwiftUI, SwiftData|![Winner](https://img.shields.io/badge/winner-green?style=for-the-badge)|
+|[Vedant Malhotra](https://vedantapps.com)|[GitHub](https://github.com/vedantapps/MagiCode)|[YouTube](https://youtu.be/Czi55_9cUzc)|SwiftUI, PencilKit, Vision|![Distinguished](https://img.shields.io/badge/distinguished-goldenrod?style=for-the-badge)|
 
-##### Total: 1 | Awarded: 1
+##### Total: 2 | Awarded: 2

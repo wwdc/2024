@@ -1,11 +1,11 @@
-Name: Vedant Malhotra
-Status: Distinguished
-ProjectTitle: MagiCode
-Technologies: SwiftUI, PencilKit, Vision
+Name:
+Status:
+ProjectTitle:
+Technologies:
 
-AboutMeUrl: https://vedantapps.com
-SourceUrl: https://github.com/vedantapps/MagiCode
-VideoUrl: https://youtu.be/Czi55_9cUzc
+AboutMeUrl:
+SourceUrl:
+VideoUrl:
 
 <!---
 EXAMPLE
