@@ -1,10 +1,10 @@
-Name:
-Status:
-ProjectTitle:
-Technologies:
+Name: Roscoe Rubin-Rottenberg
+Status: Winner
+ProjectTitle: Climate Campaign
+Technologies: SwiftUI, TipKit
 
-AboutMeUrl:
-SourceUrl:
+AboutMeUrl: https://knotbin.xyz
+SourceUrl: https://github.com/knotbin/climate-campaign
 VideoUrl:
 
 <!---
