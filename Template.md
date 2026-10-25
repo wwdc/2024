@@ -1,10 +1,10 @@
-Name:
-Status:
-ProjectTitle:
-Technologies:
+Name: Zack
+Status: Winner
+ProjectTitle: Student Swift Challenge App
+Technologies: SwiftUI
 
-AboutMeUrl:
-SourceUrl:
+AboutMeUrl: https://github.com/ZTW21
+SourceUrl: https://github.com/ZTW21/StudentSwiftChallenge
 VideoUrl:
 
 <!---
