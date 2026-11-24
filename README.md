@@ -16,7 +16,7 @@ Use the **[update form](https://github.com/wwdc/2024/issues/new?template=update.
 
 ### Submissions
 
-| Participant | Links<br><img src=".github/spacer.svg" width="2000" height="1" alt=""> | Status<br>               |
+| Participant | Links<br><img src="assets/spacer.svg" width="2000" height="1" alt=""> | Status<br>               |
 |:--|:--|:--|
 | [Freddie Nicholson](https://fr3ddie.me)<br><sub>Lifter</sub> | [GitHub](https://github.com/FreddieN/lifter-ssc24-public) · [Video](https://youtu.be/OpXI9ef8jg8)<br><sub>SwiftUI, ARKit, RealityKit, Accelerate</sub> | ![Distinguished](https://img.shields.io/badge/distinguished-goldenrod?style=for-the-badge) |
 | [Lukas Lauerer](https://www.twitter.com/custusfox) | <sub>SwiftUI, SwiftData</sub> | ![Winner](https://img.shields.io/badge/winner-green?style=for-the-badge) |
